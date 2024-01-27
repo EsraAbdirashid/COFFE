@@ -64,12 +64,12 @@ const Navbar = () => {
                                  onClick={closeMenu}
                                 >Menu 
 
-                                {/* <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
+                                <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
                                 </Link>
                                 <Link to="About" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-brightColor" 
                                  onClick={closeMenu}
                                 >About 
-                                <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span> */}
+                                <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
                                 </Link>
                                  <Link to="Products" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-brightColor"
                                  onClick={closeMenu}
