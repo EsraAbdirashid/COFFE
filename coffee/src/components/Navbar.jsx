@@ -54,7 +54,7 @@ const Navbar = () => {
 
                         </div>
                 </div>
-                {/* <div className={`${Menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-16 font-bold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}>
+                  <div className={`${Menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-16 font-bold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}>
                 <Link to="Home" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-brightColor"
                  onClick={closeMenu}
                 >Home
@@ -62,8 +62,8 @@ const Navbar = () => {
                                 </Link>
                                 <Link to="Menu" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-brightColor"
                                  onClick={closeMenu}
-                                >Menu
-
+                                >Menu 
+{/* 
                                 <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
                                 </Link>
                                 <Link to="About" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-brightColor" 
@@ -83,7 +83,7 @@ const Navbar = () => {
                                 </Link>
 
                                 <Button title="Login"/>
-                </div> */}
+                </div>  */}
         </div>
     </div>
   )
